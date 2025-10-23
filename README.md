@@ -26,7 +26,7 @@ We develop a CP-MILP model for automated discovery of complete differential-line
 
 ### 4. Open-Source Implementation and Experimental Validation
 
-We provide open-source implementations of our attack discovery tools and statistical framework, allowing independent verification and supporting future work on other primitives. Experimental observations that motivate and validate our statistical modeling are included in the paper. 
+We provide open-source implementations of our attack discovery tools and statistical framework, allowing independent verification and supporting future work on other primitives. Experimental observations that motivate and validate our statistical modeling are included in the paper.
 
 ## Repository Organization
 
@@ -82,12 +82,14 @@ This repository is organized into two main components:
 Tools for automated discovery of differential-linear distinguishers and key-recovery attacks using CP/MILP optimization and constraint programming.
 
 **Key Features:**
+
 - MILP-based search for multidimensional differential-linear distinguishers
 - Automated integration of distinguisher search with key recovery
 - MiniZinc models for constraint-based attack discovery
 - Visualization tools for attack paths
 
 **Main Tools:**
+
 - [`attackprf.py`](attack/attackprf.py) - CP/MILP-based search for PRF distinguishers
 - [`attackbranch.py`](attack/attackbranch.py) - CP/MILP-based search for branch distinguishers
 - [`difflin`](attack/difflin.c) - C tool for empirical correlation verification
@@ -104,6 +106,7 @@ GPU-accelerated tools for statistical verification and key recovery using the un
 High-performance CUDA and OpenMP implementations for computing differential-linear correlation and verifying weak-key classifications.
 
 **Key Features:**
+
 - CUDA implementation optimized for NVIDIA GPUs
 - OpenMP implementation for multi-core CPUs
 - Support for single and multi-branch distinguishers
@@ -116,11 +119,13 @@ High-performance CUDA and OpenMP implementations for computing differential-line
 Implementation of the universal key-recovery framework combining multiple weak-key distinguishers.
 
 **Main Components:**
+
 - **Distinguisher-based classification**: Test keys against weak-key distinguishers using LLR statistics
 - **Information gain estimation**: Monte Carlo simulation to measure combined entropy reduction
 - **Full attack implementation**: 6-round and 8-round universal attacks on Orthros-PRF
 
 **Subdirectories:**
+
 - [`llr/`](verification/keyrecovery/llr/) - Log-likelihood ratio analysis and information gain estimation
 
 **[→ See detailed documentation](verification/keyrecovery/README.md)**
@@ -132,11 +137,13 @@ Implementation of the universal key-recovery framework combining multiple weak-k
 Different components have different requirements. See individual README files for details.
 
 **For Attack Discovery:**
+
 - Python 3.8+
 - MiniZinc 2.8+ with Gurobi solver
 - LaTeX with TikZ (for visualization)
 
 **For Statistical Verification:**
+
 - CUDA Toolkit 11.0+ (for GPU acceleration)
 - OpenMP support (for CPU parallelization)
 - C++17 compiler (GCC 7+ or Clang 10+)
@@ -144,25 +151,26 @@ Different components have different requirements. See individual README files fo
 ### Example Workflow
 
 1. **Discover distinguishers** using CP/MILP-based search:
+
    ```bash
    cd attack
    # Example: 6-round PRF distinguisher (Distinguisher 0 from paper)
    python3 attackprf.py -offset 2 -RB 1 -RU 1 -RM 4 -RL 0 -d 10
    ```
-
 2. **Verify distinguisher correlations** on GPU:
+
    ```bash
    cd verification/distinguisher
    ./build.sh
    # Example: 5-round PRF Distinguisher 0 from paper
    ./build/cuda_dlct -r 5 -o 3 -m 2 \
-     -d 00002020000000000000000000000000 \
+     --diff-left 00002020000000000000000000000000 \
      --diff-right 00000000000044000000000000000000 \
      --mask 00000000000000000000000000002022 \
      -e 2 -s 10 -b 256 -t 512 -v
    ```
-
 3. **Estimate information gain** from multiple distinguishers:
+
    ```bash
    cd verification/keyrecovery/llr
    make
@@ -187,6 +195,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## Contact
 
 For questions, issues, or contributions, please contact:
+
 - **Hosein Hadipour**: [hsn.hadipour@gmail.com](mailto:hsn.hadipour@gmail.com)
 - **GitHub Issues**: [https://github.com/hadipourh/universalattacks](https://github.com/hadipourh/universalattacks)
 
