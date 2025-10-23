@@ -192,7 +192,7 @@ For questions, issues, or contributions, please contact:
 
 ## Acknowledgments and Short Story of the Work
 
-I began this work during the final year of my (Hosein Hadipour) Ph.D., when I visited Takanori Isobe's group for about two weeks at the University of Hyogo, Japan, in early 2024. During that visit, I discovered several distinguishers for Orthros-PRF that significantly outperformed existing ones.
+I began this work during the final year of my Ph.D., when I visited Takanori Isobe's group for about two weeks at the University of Hyogo, Japan, in early 2024. During that visit, I discovered several distinguishers for Orthros-PRF that significantly outperformed existing ones.
 
 Shortly afterward, at FSE 2024 in Belgium, I shared these findings with Yosuke Todo, who was independently working on sum-of-permutation designs including Orthros-PRF. He identified a critical limitation in my distinguishers: the distinguishers were effective only for a fraction of the keys. This observation sparked a collaboration to develop a method for transforming the weak-key distinguishers into universal attacks, which culminated in the framework presented in this work.
 
