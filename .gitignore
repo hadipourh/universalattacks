@@ -1,0 +1,117 @@
+# Build directories and artifacts
+build/
+dist/
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.generated
+*.cmake
+!CMakeLists.txt
+
+# CUDA/GPU compiled files
+*.ptx
+*.cubin
+*.fatbin
+
+# C/C++ compiled binaries
+difflin
+keyrecovery
+keyanalysis
+*.elf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf_tex
+*.bbl
+*.blg
+*.xdv
+
+# MiniZinc
+*.fzn
+*.ozn
+minizinc-python.log
+
+# Results and output files
+results/*.txt
+results/*.log
+results/*.csv
+results/*.json
+!results/.gitkeep
+*.tex
+!tikzstyle/*.tex
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+$RECYCLE.BIN/
+
+# Data files (optional - uncomment if you don't want to track large data)
+# *.dat
+# *.csv
+# *.bin
+
+# Debug files
+debug_output.txt
+*.dSYM/

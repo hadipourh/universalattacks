@@ -1,0 +1,16 @@
+# Example input file for diff
+---
+nrounds: 4
+branchtype: 1
+offset: 0
+mode: 1
+sweight: 0
+endweight: 128
+timelimit: 3600
+numberoftrails: 4
+fixedVariables:
+
+- x_0 : "00000000000000000000000000080a00"
+
+# - x_1 : "00000000220000000000000000000000"
+- x_4 : "00000000000000008008000000000000"

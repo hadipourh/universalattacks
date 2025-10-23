@@ -1,0 +1,70 @@
+Cryptographic Cipher Correlation Analysis Report
+==================================================
+
+Dataset Information:
+  Total samples: 100
+  Data range: [1.650560e-05, 6.241072e-05]
+  Dynamic range: 3.78e+00
+  Log₂ range: [-15.89, -13.97]
+
+Central Tendency (Power-of-2 Representation):
+  Mean: 2^-14.5901 (4.054474e-05)
+  Median: 2^-14.6158 (3.982917e-05)
+  Trimmed mean (10%): 4.066789e-05
+
+Dispersion:
+  Standard deviation: 2^-16.4938 (1.083569e-05)
+  Median abs. deviation: 8.284114e-06
+  Interquartile range: 1.694518e-05
+  Coefficient of variation: 0.2673
+
+Interpretation:
+  Correlation strength (log₂): -14.59 bits
+  Security margin: ~7.3 bits
+  Detection probability: 2^-29.18
+
+Shape Statistics:
+  Skewness: -0.0658
+  Kurtosis: -0.7659
+
+Histogram Configuration:
+  Optimal bins: 50 (Freedman-Diaconis)
+  Bin step (log₂): 0.034
+
+Distribution Fitting Results:
+  Beta:
+    AIC: -2003.04
+    BIC: -1992.62
+    KS p-value: 0.797465
+    Parameters: (np.float64(2.199412096790991), np.float64(1.9265556676582292), np.float64(1.4243743057066061e-05), np.float64(4.9364513454275534e-05))
+
+  Weibull:
+    AIC: -1999.80
+    BIC: -1991.98
+    KS p-value: 0.744832
+    Parameters: (np.float64(3.522937174643129), np.float64(6.864953735001955e-06), np.float64(3.7481395674205696e-05))
+
+  Normal:
+    AIC: -1999.75
+    BIC: -1994.54
+    KS p-value: 0.734380
+    Parameters: (np.float64(4.054474178701649e-05), np.float64(1.0781372493491934e-05))
+
+  Log-Normal:
+    AIC: -1997.75
+    BIC: -1989.93
+    KS p-value: 0.734408
+    Parameters: (np.float64(1.0781117148430365e-05), -0.9999834944028407, np.float64(1.00002403908651))
+
+  Gamma:
+    AIC: -1997.61
+    BIC: -1989.80
+    KS p-value: 0.776216
+    Parameters: (np.float64(1388.1161159227734), np.float64(-0.0003615648248454413), np.float64(2.896635921852131e-07))
+
+  Exponential:
+    AIC: -1923.17
+    BIC: -1917.96
+    KS p-value: 0.000000
+    Parameters: (1.650559715927e-05, 2.4039144627746494e-05)
+

@@ -1,0 +1,10 @@
+RU = 4;
+RM = 4;
+RL = 0;
+RMU = 0;
+RML = 0;
+WU = 1;
+WM = 1;
+WL = 1;
+offset = 4;
+branchtype = 0;

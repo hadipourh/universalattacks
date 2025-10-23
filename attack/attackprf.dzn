@@ -1,0 +1,10 @@
+RB = 1;
+RU = 1;
+RM = 3;
+RL = 0;
+RMU = 0;
+RML = 0;
+WU = 1;
+WM = 1;
+WL = 1;
+offset = 2;
