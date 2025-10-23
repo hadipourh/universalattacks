@@ -1,0 +1,5 @@
+# macOS-specific compiler options
+CC=clang++
+OPT=-m64 -O2 -funroll-loops -std=c++17 -Xpreprocessor -fopenmp
+INC=-I/opt/homebrew/include
+LIB=-L/opt/homebrew/Cellar/libomp/21.1.1/lib -lomp

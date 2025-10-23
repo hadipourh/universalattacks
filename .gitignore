@@ -24,8 +24,8 @@ Makefile.generated
 
 # C/C++ compiled binaries
 difflin
-keyrecovery
-keyanalysis
+/verification/keyrecovery/keyrecovery
+/verification/keyrecovery/keyanalysis
 *.elf
 
 # Python
