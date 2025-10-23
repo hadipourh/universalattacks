@@ -207,7 +207,7 @@ Shortly afterward, at FSE 2024 in Belgium, I shared these findings with Yosuke T
 
 The publication was delayed so long as I was busy with other commitments and we refined our methods and verified our results through extensive experimentation. Most of the research was completed after my Ph.D., during the first few months of my postdoctoral position at Ruhr University Bochum, Germany, under the supervision of Gregor Leander.
 
-I would like to express my gratitude to Takanori Isobe and his lab members, Mostafizar Rahman and Ravi Anand, for their warm hospitality during my stay in Japan and their invaluable support throughout this project. I am also deeply grateful to Yosuke Todo and Maria Eichlseder for their collaboration, insightful discussions, and contributions that shaped this work. I also thank Gregor Leander for his support during my postdoctoral research.
+I would like to express my gratitude to Takanori Isobe and his lab members, Mostafizar Rahman and Ravi Anand, for their warm hospitality during my short visit. I am also grateful to Yosuke Todo and Maria Eichlseder for their collaboration, insightful discussions, and contributions that shaped this work. I also thank Gregor Leander for his support during my postdoctoral research.
 
 ---
 
