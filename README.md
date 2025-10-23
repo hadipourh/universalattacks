@@ -31,7 +31,7 @@ We provide open-source implementations of our attack discovery tools and statist
 ## Repository Organization
 
 ```
-code/public/
+.
 ├── README.md                          # This file
 ├── attack/                            # Attack discovery tools
 │   ├── README.md                      # Detailed documentation
