@@ -205,7 +205,7 @@ I began this work during the final year of my Ph.D., when I visited Takanori Iso
 
 Shortly afterward, at FSE 2024 in Belgium, I shared these findings with Yosuke Todo, who was independently working on sum-of-permutation designs including Orthros-PRF. He identified a critical limitation in my distinguishers: the distinguishers were effective only for a fraction of the keys. This observation sparked a collaboration to develop a method for transforming the weak-key distinguishers into universal attacks, which culminated in the framework presented in this work.
 
-The publication was delayed so long as I was busy with other commitments and we refined our methods and verified our results through extensive experimentation. Most of the research was completed after my Ph.D., during the first few months of my postdoctoral position at Ruhr University Bochum, Germany, under the supervision of Gregor Leander.
+The completion and publication of this work extended beyond the initial discoveries as we dedicated substantial effort to refining our methods and conducting extensive experimental validation to ensure the robustness of our results. Most of the research was completed after my Ph.D., during the first few months of my postdoctoral position at Ruhr University Bochum, Germany, under the supervision of Gregor Leander.
 
 I would like to express my gratitude to Takanori Isobe and his lab members, Mostafizar Rahman and Ravi Anand, for their warm hospitality during my short visit. I am also grateful to Yosuke Todo and Maria Eichlseder for their collaboration, insightful discussions, and contributions that shaped this work. I also thank Gregor Leander for his support during my postdoctoral research.
 
