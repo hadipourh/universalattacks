@@ -180,13 +180,16 @@ Different components have different requirements. See individual README files fo
 
 ## Citation
 
-If you use this code in your research, please cite our paper:```bibtex
+If you use this code in your research, please cite our paper:
+
+```bibtex
 @article{hadipour2025universal,
   title={Turning Multiple Key-Dependent Attacks into Universal Attacks},
   author={Hadipour, Hosein and Todo, Yosuke and Rahman, Mostafizar and Eichlseder, Maria and Anand, Ravi and Isobe, Takanori},
   year={2025},
   note={To appear}
 }
+```
 
 ## License
 
