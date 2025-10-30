@@ -193,7 +193,7 @@ If you use this code in your research, please cite our paper:
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details or visit [https://www.gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0).
+This project is licensed under the GNU General Public License v3.0 (see [LICENSE](LICENSE))
 
 ## Contact
 
