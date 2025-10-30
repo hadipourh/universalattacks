@@ -378,4 +378,4 @@ This software is released under the GNU General Public License v3.0. See LICENSE
 
 For questions, issues, or contributions:
 - Open an issue on GitHub
-- Contact: Hosein Hadipour <hosein.hadipour@example.com>
+- Contact: Hosein Hadipour <hsn.hadipour@gmail.com>
